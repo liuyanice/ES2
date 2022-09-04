@@ -7,7 +7,7 @@
 
 - [Configurations](#Configurations)
 
-- [Pretrained weights](#pretrained_weights)
+- [Baseline pretrained weights](#Baseline pretrained weights)
 
 
 ## Abstract
@@ -72,7 +72,7 @@ Segmentation data:
 <br/>
 
 ## Citation
-If you use the proposed framework (or any part of this code in your research) or use these datasets and utils tool, please cite ours paper:
+If you use the proposed framework (or any part of this code in your research) or use these handled datasets, please cite ours paper:
 
 
 ## Contact
