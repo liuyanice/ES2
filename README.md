@@ -3,14 +3,14 @@
 
 ## Table of Contents
 
-- [Background and Abstract](#background)
+- [Abstract](#background)
 
 - [Configurations](#Configurations)
 
 - [Pretrained weights](#pretrained_weights)
 
 
-## Background and Abstract
+## Abstract
 Although transformers have been widely used for medical image segmentation due to their superiority in global feature learning, these transformer-based methods suffer from two key issues. One is the inaccurate boundary prediction of lesion segmentation. The other is that these transformers lack an effective fusion mechanism for different-level features. Different form  existing transformer-based methods, we propose a novel transformer model called BGC-Trans, which based on boundary guided attention and cross-scale combination. BGC-Trans has three advantages. The first advantage is that we design a cross-scale transformers branch (CSTB) to extract the semantic information of high-level features, so as to better learn the context information for lesion image. The second advantage is we introduce a pixel level encoder branch (PLEB), which uses the boundary guided attention module to fuse the global and pix-level features to obtain a more accurate segmentation image. The third advantage isthat considering the problems of under-sampling and over-sampling in most lesion segmentation models, which lead to the loss of detail and edge information, a boundary compensation module (BCM) is specially designed. We evaluated BGC-Trans on three skin lesion datasets, ISIC-2016, ISIC-2018 and PH2. Moreover, in order to confirm the generalization of our model, we also carried out extensive experiments on polyp datasets. Experiments demonstrate BGC-Trans is more robust to various challenging situations (e.g. hair coverage, varying shapes, and small objects) than state-of-the-art models.
 
 <div align=center>
@@ -28,7 +28,7 @@ Please install the following libraries, or pip install related dependencies file
 5. tensorboard 2.9.1
 6. opencv-python  4.6.0.66
 
-## baseline pretrained weights
+## Baseline pretrained weights
 pretrained weights are available in: https://github.com/liuyanice/BGC-Trans/tree/main/lib/backbone/pvt_v2_b2.pth
 
 ## Datasets
@@ -60,17 +60,14 @@ The results of the proposed framework are presented in the terminal.
 Visualization:
 
 <div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/compare.svg" width="700px">
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/compare.svg" width="750px">
 </div>
 <br/>
 
-<div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/polyp1.svg" width="700px">
-</div>
-<br/>
+Segmentation data:
 
 <div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/polyp2.svg" width="700px">
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/PolypDice.svg" width="500px">
 </div>
 <br/>
 
