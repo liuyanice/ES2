@@ -65,7 +65,7 @@ Visualization:
 Segmentation data:
 
 <div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Ab.svg" width="900px" >
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Ab.svg" width="700px" >
 </div>
 <br/>
 
