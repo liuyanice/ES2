@@ -77,7 +77,7 @@ Segmentation data:
 <img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/polyp.svg" width="1000px" >
 </div>
 <div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/po.svg" width="500px" >
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/po.svg" width="480px" >
 </div>
 <br/>
 
