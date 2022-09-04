@@ -62,7 +62,12 @@ Visualization:
 <img src="https://github.com/liuyanice/BGC-Trans/blob/main/compare.svg" width="750px">
 </div>
 <br/>
+Segmentation data:
 
+<div align=center>
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Ab.svg" width="900px" >
+</div>
+<br/>
 
 Image-level Polyp Segmentation.
 
