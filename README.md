@@ -66,8 +66,7 @@ Visualization:
 Segmentation data:
 
 <div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/PolypDice.svg" width="270px">
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/zhu.svg" width="350px" >
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/zhu.svg" width="500px" >
 </div>
 <br/>
 
