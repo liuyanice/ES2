@@ -54,7 +54,7 @@ For testing, we present proposed method:
 Please run the 'src/test.py' to testing. (Check the super parameters as required before running in test.py)
 
 ### Results
-The results of the proposed framework are presented in the terminal.
+Image-level Skin lesions Segmentation. 
 
 Visualization:
 
@@ -63,12 +63,17 @@ Visualization:
 </div>
 <br/>
 
+
+Image-level Polyp Segmentation.
+
 Segmentation data:
 
 <div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/zhu.svg" width="500px" >
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/polyp.svg" width="750px" >
 </div>
 <br/>
+
+
 
 ## Citation
 If you use the proposed framework (or any part of this code in your research) or use these processed datasets, please cite ours paper:
