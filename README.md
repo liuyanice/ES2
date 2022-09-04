@@ -59,7 +59,7 @@ Image-level Skin lesions Segmentation.
 Visualization:
 
 <div align=center>
-<img src="https://github.com/liuyanice/BGC-Transtree/tree/main/Figs/ours.svg" width="700px">
+<img src="https://github.com/liuyanice/BGC-Trans/tree/main/Figs/ours.svg" width="700px">
 </div>
 <br/>
 Segmentation data:
