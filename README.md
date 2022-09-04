@@ -73,9 +73,11 @@ Segmentation data:
 Image-level Polyp Segmentation.
 
 Segmentation data:
-
 <div align=center>
 <img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/polyp.svg" width="1000px" >
+</div>
+<div align=center>
+<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/po.svg" width="1000px" >
 </div>
 <br/>
 
