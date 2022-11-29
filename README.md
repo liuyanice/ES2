@@ -1,4 +1,4 @@
-## BGC-Trans: Cross-scale Transformers with Boundary Guided Attention for Medical Image Segmentation
+## BGC-Trans: Cross-scale Transformers with Boundary Guided Attention
 **Paper Title**: _BGC-Trans: Cross-scale Transformers with Boundary Guided Attention_   
  
 by Yan Liu, Yan Yang, Yongquan Jiang, Rong Pang and Xiaole Zhao.
