@@ -1,9 +1,5 @@
-## An Ensemble Learning Framework with
-Boundary Guided Attention for Skin Lesions
-Segmentation
-**Paper Title**: _An Ensemble Learning Framework with
-Boundary Guided Attention for Skin Lesions
-Segmentation_   
+## An Ensemble Learning Framework with Boundary Guided Attention for Skin Lesions Segmentation
+**Paper Title**: _An Ensemble Learning Framework with Boundary Guided Attention for Skin Lesions Segmentation_   
  
 by Yan Liu, Yan Yang, Xiaole Zhao and Vittor Gift Mawutor.
 ## Table of Contents
@@ -16,11 +12,10 @@ by Yan Liu, Yan Yang, Xiaole Zhao and Vittor Gift Mawutor.
 
 
 ## Introduction
-Although transformers have been widely used for image segmentation due to their superiority in global feature learning, these transformer-based methods suffer from two key issues. One is the inaccurate boundary prediction of skin lesion segmentation. The other is current pure transformer methods based on single-scale have poor ability for pixel-level locality. Different form existing transformer-based methods, we propose a novel transformer model called BGC-Trans, which based on boundary guided attention and cross-scale combination. BGC-Trans has three advantages. The first advantage is that we design a cross-scale transformers branch (CSTB) to extract the semantic information of high-level features, so as to better learn the context information for lesion image. The second advantage is we introduce a pixel level encoder branch (PLEB), which fuses the global features of CSTB in a cross-scale manner to obtain more accurate segmentation images. The third advantage is that considering the problems of boundary cannot be accurately located in most lesion segmentation models, a boundary compensation module (BCM) is specially designed. We evaluated BGC-Trans on three skin lesion datasets, ISIC-2016, ISIC-2018 and PH2. Moreover, in order to confirm the generalization of our model, we also carried out extensive experiments on polyp datasets. 
+In this study, we present a novel ensemble learning framework called ES2, which sought to accurately segment skin lesions using convolution neural network (CNN), cross-scale
+vision transformer and boundary knowledge. The key to ES2 is addressing skin lesion segmentation with problems such as hair cover
+lesions, color variation, different sizes, and relatively low contrast resulting in ambiguous boundaries
 
-<div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/BGC.svg" width="780px">
-</div>
 
 ## Configurations
 
@@ -57,33 +52,6 @@ Please run the 'src/train.py' to training. (Check the super parameters as requir
 
 For testing, we present proposed method:
 Please run the 'src/test.py' to testing. (Check the super parameters as required before running in test.py)
-
-### Results
-Image-level Skin lesions Segmentation. 
-
-Visualization:
-
-<div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/ours.svg" width="700px" height="300px">
-</div>
-<br/>
-Segmentation data:
-
-<div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/Ab.svg" width="450px" >
-</div>
-<br/>
-
-Image-level Polyp Segmentation.
-
-Segmentation data:
-<div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/polyp.svg" width="1000px" >
-</div>
-<div align=center>
-<img src="https://github.com/liuyanice/BGC-Trans/blob/main/Figs/po.svg" width="450px" >
-</div>
-<br/>
 
 
 
