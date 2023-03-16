@@ -1,7 +1,11 @@
-## BGC-Trans: Cross-scale Transformers with Boundary Guided Attention
-**Paper Title**: _BGC-Trans: Cross-scale Transformers with Boundary Guided Attention_   
+## An Ensemble Learning Framework with
+Boundary Guided Attention for Skin Lesions
+Segmentation
+**Paper Title**: _An Ensemble Learning Framework with
+Boundary Guided Attention for Skin Lesions
+Segmentation_   
  
-by Yan Liu, Yan Yang, Yongquan Jiang, Rong Pang and Xiaole Zhao.
+by Yan Liu, Yan Yang, Xiaole Zhao and Vittor Gift Mawutor.
 ## Table of Contents
 
 - [Introduction](#background)
@@ -88,4 +92,4 @@ If you use the proposed framework (or any part of this code in your research) or
 
 
 ## Contact
-If you have any query, please feel free to contact us at: 56200522@qq.com,  liuyan@my.swjtu.edu.cn and yyang@swjtu.edu.cn
+If you have any query, please feel free to contact us at: 56200522@qq.com,  liuyan@my.swjtu.edu.cn
